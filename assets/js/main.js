@@ -1,8 +1,6 @@
-// API KEY 7ec4990a53922c2b475ea15b406ba79c
-
-
+// 
 let icon;
-fetch("https://api.openweathermap.org/data/2.5/weather?lat=51.509865&lon=-0.118092&appid=7ec4990a53922c2b475ea15b406ba79c")
+fetch("https://api.openweathermap.org/data/2.5/weather?lat=51.509865&lon=-0.118092&appid=")//key
     .then((response) => response.json())
     .then((data) => {
         console.log(data);
