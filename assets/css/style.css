@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    align-self: center;
+    font-size: 4rem;
+}
+
+h2 {
+    align-self: center;
+    font-size: 4rem;
+}
+
+article {
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+p {
+    align-self: center;
+    font-size: 2rem;
+}
+
+a {
+    padding-left: 2%;
+    font-size: 2rem;
+    align-self: center;
+    color: chocolate;
+    text-decoration: none;
+}
+
+#box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#temp {
+    font-size: 3rem;
+}
+
+/*tabelle*/
+
+section {
+    align-self: center;
+    width: 60%;
+    display: grid;
+    grid-template-areas: "localTime timeValue"
+        "wind windValue"
+        "cloudiness coudinessValue"
+        "humidity humidityValue";
+}
+
+section p {
+    padding: 2% 5%;
+    border: 2px solid grey;
+}
+
+#localTime {
+    background-color: azure;
+    grid-area: "localTime";
+}
+
+#timeValue {
+    background-color: azure;
+    grid-area: "timeValue";
+}
+
+#wind {
+    grid-area: "wind";
+}
+
+#windValue {
+    grid-area: "windValue";
+}
+
+#cloudiness {
+    background-color: azure;
+    grid-area: "cloudiness";
+}
+
+#cloudinessValue {
+    background-color: azure;
+    grid-area: "cloudinessValue";
+}
+
+#humidity {
+    background-color: azure;
+    grid-area: "humidity";
+}
+
+#humidityValue {
+    background-color: azure;
+    grid-area: "humidityValue";
+}
+
+#sunset {
+    background-color: azure;
+}
+
+#sunsetValue {
+    background-color: azure;
+}
+
+#geoCoordsValue {
+    color: chocolate;
+}
